@@ -1,3 +1,7 @@
+## Built by following tutorial
+https://auth0.com/blog/setting-up-a-component-library-with-react-and-storybook/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
