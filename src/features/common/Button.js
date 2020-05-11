@@ -2,6 +2,18 @@ import React from "react";
 import "./Button.scss"
 
 
-const Button = props => <div className="Button">{props.label}</div>;
-
+const Button = props => (
+    <div
+      className={`Button ${
+        props.active
+          ? props.fill
+            ? `active fill`
+            : `active no-fill`
+          : `disabled`
+      }`}
+    >
+      {props.label}
+    </div>
+  );
+  
 export default Button;
